@@ -1,13 +1,13 @@
-import QrScanner from "./sections/qrscan"; // Import the QR scanner component
+import Page from "./components/Page"; // Correct import path to the components folder
+import ShopDetails from "./components/ShopDetails";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      {/* Main App structure */}
-      <h1>Welcome to the QR Scanner App</h1>
-      <QrScanner /> {/* Render the QR scanner component */}
+    <div className="App">
+      <Page />
+      <ShopDetails />
     </div>
   );
-};
+}
 
 export default App;

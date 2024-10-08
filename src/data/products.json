@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headset",
+    "brand": "BrandName",
+    "description": "High-quality wireless headset with noise cancellation and long battery life.",
+    "price": 120.99,
+    "image": "../assets/product1.png"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Mouse",
+    "brand": "AnotherBrand",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting and high DPI sensitivity.",
+    "price": 50.75,
+    "image": "../assets/product2.png"
+  }
+]
